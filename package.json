@@ -1,0 +1,24 @@
+{
+  "name": "api-example",
+  "version": "1.0.0",
+  "description": "basic API with Hapi and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwhitmont/api-example.git"
+  },
+  "author": "Nils Whitmont <nils.whitmont@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhitmont/api-example/issues"
+  },
+  "homepage": "https://github.com/nwhitmont/api-example",
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "joi": "^6.1.0"
+  }
+}
